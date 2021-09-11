@@ -20,9 +20,25 @@
   <meta name="author" content="I046569">
   <meta name="keywords" content="I046569">
   
-  <title>标签 - 笔记 - I046569</title>
+  <title>for i in range ()作用 - I046569</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
 
 
 
@@ -50,7 +66,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -149,17 +165,63 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="标签 - 笔记">
+            <span class="h2" id="subtitle" title="for i in range ()作用">
               
             </span>
 
             
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      I046569
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-09-11 21:09" pubdate>
+        2021年9月11日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      211 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      3
+       分钟
+    </span>
+  
+
+  
+  
+    
+      <!-- 不蒜子统计文章PV -->
+      <span id="busuanzi_container_page_pv" style="display: none">
+        <i class="iconfont icon-eye" aria-hidden="true"></i>
+        <span id="busuanzi_value_page_pv"></span> 次
+      </span>
+    
+  
+</div>
+
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -168,52 +230,112 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 3 篇文章</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2021</p>
-    
-    <a href="/2021/09/11/for-i-in-range-%E4%BD%9C%E7%94%A8/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">for i in range ()作用</span>
-      <time style="float: right;">09-11</time>
-    </a>
-  
-    
-    <a href="/2021/09/11/Python%E5%AD%97%E7%AC%A6%E4%B8%B2/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Python字符串</span>
-      <time style="float: right;">09-11</time>
-    </a>
-  
-    
-    <a href="/2021/09/11/Blog%E6%90%AD%E5%BB%BA/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">利用Github Pages，HEXO 搭建个人博客</span>
-      <time style="float: right;">09-11</time>
-    </a>
-  
-</div>
 
-
-
-
-
-              </div>
-            </div>
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">for i in range ()作用</h1>
+            
+            <div class="markdown-body">
+              <h1 id="for-i-in-range-作用："><a href="#for-i-in-range-作用：" class="headerlink" title="for i in range ()作用："></a>for i in range ()作用：</h1><p>range()是一个函数， for i in range () 就是给i赋值：<br>比如 <code>for i in range （1，3）：</code><br>就是把1,2依次赋值给i</p>
+<h2 id="range-函数的使用是这样的"><a href="#range-函数的使用是这样的" class="headerlink" title="range () 函数的使用是这样的:"></a>range () 函数的使用是这样的:</h2><div class="note note-success">
+            <p><code>range(start, stop, [step])</code>，分别是起始、终止和步长<br><code>range（3）</code>即：从0到3，不包含3，即0,1,2</p>
           </div>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;&gt;&gt; <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(3):<br>	<span class="hljs-built_in">print</span>(i)<br><br>	<br>0<br>1<br>2<br></code></pre></td></tr></table></figure>
+<div class="note note-success">
+            <p>range(1,3) 即：从1到3，不包含3，即1,2</p>
+          </div>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;&gt;&gt; <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(1,3):<br>	<span class="hljs-built_in">print</span>(i)<br><br>	<br>1<br>2<br></code></pre></td></tr></table></figure>
+<div class="note note-success">
+            <p>range（1,3,2）即：从1到3，每次增加2，因为1+2=3，所以输出只有1<br>第三个数字2是代表步长。如果不设置，就是默认步长为1</p>
+          </div>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;&gt;&gt; <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(1,3,2):<br>	<span class="hljs-built_in">print</span>(i)<br><br><br>1<br></code></pre></td></tr></table></figure>
+<div class="note note-success">
+            <p>如果改成range(1,10,2)，就会输出1.3.5.7.9</p>
+          </div>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;&gt;&gt; <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(1,10,2):<br>	<span class="hljs-built_in">print</span>(i)<br><br>	<br>1<br>3<br>5<br>7<br>9<br></code></pre></td></tr></table></figure>
+<p><a href="https://985.wiki/">046569</a></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Python/">Python</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Python/">Python</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/09/11/Python%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+                        <span class="hidden-mobile">Python字符串</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -293,9 +415,15 @@
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.3/dist/tocbot.min.js" ></script>
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.1/anchor.min.js" ></script>
 
 
 
