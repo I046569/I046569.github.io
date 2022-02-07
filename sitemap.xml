@@ -110,20 +110,6 @@
 
   
   <url>
-    <loc>https://985.wiki/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://985.wiki/tags/Python/</loc>
-    <lastmod>2022-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://985.wiki/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -145,7 +131,21 @@
   </url>
   
   <url>
-    <loc>https://985.wiki/tags/%E5%BA%9F%E8%AF%9D%E6%96%87%E5%AD%A6/</loc>
+    <loc>https://985.wiki/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://985.wiki/tags/Python/</loc>
+    <lastmod>2022-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://985.wiki/tags/%E5%85%B1%E5%90%8C%E5%AF%8C%E8%A3%95/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -159,7 +159,7 @@
   </url>
   
   <url>
-    <loc>https://985.wiki/tags/%E5%85%B1%E5%90%8C%E5%AF%8C%E8%A3%95/</loc>
+    <loc>https://985.wiki/tags/%E5%BA%9F%E8%AF%9D%E6%96%87%E5%AD%A6/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -168,14 +168,14 @@
 
   
   <url>
-    <loc>https://985.wiki/categories/Python/</loc>
+    <loc>https://985.wiki/categories/Hexo/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://985.wiki/categories/Hexo/</loc>
+    <loc>https://985.wiki/categories/Python/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
